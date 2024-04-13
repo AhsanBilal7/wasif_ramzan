@@ -1,0 +1,136 @@
+/* /////////////////////////////////      Hero Section Css          ///////////////////////////////// */
+/* styles/HeroSection.module.css */
+
+.heroContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+    padding-bottom: 10px;
+  }
+  
+  .textSection {
+    flex: 1;
+    padding-right: 40px;
+  }
+  
+  .textSection h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+  .textSection h2 {
+    font-size: 25px;
+    font-weight:300;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .imageSection{
+
+      flex: 1;
+    }
+    .image{
+        display:flex ;
+        justify-content: center;
+        align-items: center;
+        
+}
+
+.headingName h2{
+
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+
+/* /////////////////////// */
+/* In your styles.css or .scss file */
+
+/* Styles for the heading container */
+/* In your styles.css or .scss file */
+
+/* Styles for the heading */
+.headingName {
+  position: relative;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  animation: fade 0.8s ease-in-out forwards ; /* Apply the "fade" animation */
+}
+
+/* Define the "fade" animation */
+@keyframes fade {
+  0% {
+    opacity: 0.2; /* Set initial and final opacity */
+  }
+  100% {
+    opacity: 1; /* Set opacity during the middle of the animation */
+  }
+}
+/* Styles for the main heading text */
+.headingone {
+  font-size: 40px; /* Adjust the font size as needed */
+  font-weight: 600;
+  margin: 0;
+  z-index: 2; /* Place it on top of the background text */
+}
+
+/* Styles for the background heading text */
+.headingBackground {
+  font-size: 80px; /* Adjust the font size as needed */
+  margin: 0;
+  font-weight: 900;
+  position: absolute;
+  color: #007bff;
+  text-align: center;
+  top: -55px;
+  left: -11px;
+  width: 100%;
+  opacity: 0.1; /* Adjust the opacity as desired */
+  z-index: 1; /* Place it behind the main text */
+  transition: opacity 0.5s ease-in-out; /* Add a smooth transition effect */
+}
+
+/* /////////////////////// */
+
+
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+.button Link{
+  color: white;
+  text-decoration: none;
+}
+
+  
+  /* Add animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .textSection,
+  .imageSection {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+/* /////////////////////////////////      Hero Section Css          ///////////////////////////////// */

@@ -1,0 +1,28 @@
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Google Sans', Arial, sans-serif;
+
+
+}
+
+
+/* global.css */
+
+/* Style the active tab link to fill with color */
+.nav-tabs .nav-link.active {
+  background-color: #007bff; /* Change this to the desired color */
+  color: white; /* Change this to the desired text color */
+padding: 10px 10px;
+
+}
+
+/* Style the tab link for the open tab */
+.nav-tabs .nav-item.show .nav-link {
+  background-color: #b2d7ff; /* Change this to the desired color */
+  color: white; /* Change this to the desired text color */
+  border: 1px solid red;
+}
